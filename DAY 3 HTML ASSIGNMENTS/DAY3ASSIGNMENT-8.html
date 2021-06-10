@@ -1,0 +1,26 @@
+<!--use select-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>use select</title>
+</head>
+<body>
+	<label>choose wish</label>
+	<select id="wish">
+		<option>good</option>
+		<option>morning</option>
+		<option>everyone</option>
+		<option>guys</option>
+		<option>hey</option>
+		<option>helloo</option>
+	</select>
+	<button onclick="read()">submit</button>
+	<p id="result"></p>
+	<script>
+		function read(){
+			var c=document.getElementById('wish').value;
+			document.getElementById('result').innerHTML=c;
+		}
+	</script>
+</body
